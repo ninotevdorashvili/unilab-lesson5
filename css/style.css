@@ -1,0 +1,131 @@
+/* header styles */
+.header {
+    padding: 20px;
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    z-index: 10;
+}
+#logo {
+    display: inline-block;
+    vertical-align: middle;
+    color:#FA6980 ;
+    text-transform: uppercase;
+    font-family: 'Helvetica';
+    font-weight: bold;
+    font-size: 13px;
+}
+.navigation {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 92px;
+}
+.nav-li {
+    display: inline-block;
+    margin-left: 18px;
+    text-transform: uppercase;
+}
+.nav {
+    font-family: 'Helvetica';
+    font-size: 11px;
+}
+#home {
+    color: black;
+}
+.nav-a {
+    color: #a6adb4;
+}
+.header-icon {
+    display: inline-block;
+    vertical-align: middle;
+    margin-left: 36px;
+}
+/* section-1-styles */
+.section1 {
+    margin-top: 75px;
+}
+.section1-title {
+    text-transform: uppercase;
+    width: 1160px;
+    margin: 25px auto 40px;
+    font-family: 'Helvetica';
+    font-size: 24px;
+
+}
+.container {
+    width: 1160px;
+    margin: 0 auto;
+    display: flex;
+    justify-content: space-between;
+}
+.section1-block {
+    position: relative;
+}
+.section1-block p {
+    position: absolute;
+    top: 28px;
+    left: 40px;
+    font-family: 'Helvetica';
+    font-size: 16px;
+    color: #fff;
+}
+.under-image-text {
+    margin: 66px 40px;
+    font-family: 'Acumin Pro';
+    font-size: 13px;
+    color: #A6ADB4;
+}
+/* section-2-styles */
+.section2 {
+    margin-top: 58px;
+}
+.section2-title {
+    width: 1160px;
+    margin: 58px auto 40px;
+    text-transform: uppercase;
+    font-family: 'Helvetica';
+    font-size: 24px;
+}
+.section2-container {
+    width: 1160px;
+    margin: 0 auto;
+}
+.section2-block {
+    display: inline-block;
+    vertical-align: top;
+}
+.left {
+    width: 760px;
+    margin-right: 35px;
+}
+.right {
+    width: 360px;
+}
+.section2-block1 {
+    position: relative;
+    margin-bottom: 40px;
+}
+.section2-block1 p {
+    position: absolute;
+    right:6px;
+    bottom: 27px;
+    color: #fff;
+    font-family: 'Helvetica';
+    font-size: 16px;
+}
+.section2-block2 {
+    position: relative;
+}
+.section2-block2 p {
+    position: absolute;
+    top: 18px;
+    left: 40px;
+    color: #fff;
+    font-family: 'Helvetica';
+    font-size: 16px;
+}
+.image {
+    margin-top: 102px;
+    margin-bottom: 102px;
+}
